@@ -51,12 +51,6 @@ Historial:
 - PedidoEncomienda #102 – entregado por Daniela Tapia
 ```
 
-## 🛠️ Tecnologías
-
-- Java
-- Maven
-- IntelliJ IDEA
-
 ## ▶️ Cómo ejecutar
 
 1. Clonar el repositorio:
@@ -93,4 +87,4 @@ Semana-3/
 
 ## 👤 Autor
 
-Pablo – Desarrollo Orientado a Objetos II, Duoc UC
+Pablo Sepulveda – Desarrollo Orientado a Objetos II
