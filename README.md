@@ -22,7 +22,7 @@ El sistema gestiona tres tipos de pedidos (Comida, Encomienda y Express), cada u
 - **`Cancelable`** → `cancelar()`
 - **`Rastreable`** → `verHistorial()`
 
-Implementadas en las clases de pedido y/o en `ControladorDeEnvios`, según corresponda.
+Implementadas en las clases de pedido y en `GestorPedidos`, que centraliza la lógica de despacho, cancelación e historial.
 
 ## ⚙️ Funcionalidades demostradas en `Main`
 
@@ -51,12 +51,45 @@ Historial:
 - PedidoEncomienda #102 – entregado por Daniela Tapia
 ```
 
+## 🛠️ Tecnologías
+
+- Java
+- Maven
+- IntelliJ IDEA
+
 ## ▶️ Cómo ejecutar
 
-1. Clonar el repositorio. https://github.com/pablo-psr/Semana-3.git
-2. Abrir el proyecto en IntelliJ IDEA.
-```https://github.com/pablo-psr/Semana-3.git```
+1. Clonar el repositorio:
+   ```
+   git clone https://github.com/pablo-psr/Semana-3.git
+   ```
+2. Abrir el proyecto en IntelliJ IDEA (como proyecto Maven).
+3. Ejecutar la clase `Main` (`src/main/java/com/duoc/sumativa1/ui/Main.java`).
 
+## 📁 Estructura del repositorio
+
+```
+Semana-3/
+├── .idea/
+├── .mvn/
+├── src/
+│   └── main/
+│       └── java/
+│           └── com/duoc/sumativa1/
+│               ├── data/
+│               │   └── GestorPedidos.java
+│               ├── model/
+│               │   ├── Cancelable.java
+│               │   ├── Despachable.java
+│               │   ├── Pedido.java
+│               │   ├── PedidoComida.java
+│               │   ├── PedidoEncomienda.java
+│               │   ├── PedidoExpress.java
+│               │   └── Rastreable.java
+│               └── ui/
+│                   └── Main.java
+└── README.md
+```
 
 ## 👤 Autor
 
