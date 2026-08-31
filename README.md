@@ -55,7 +55,7 @@ Historial:
 
 1. Clonar el repositorio:
    ```
-   git clone https://github.com/pablo-psr/Semana-3.git
+   https://github.com/pablo-psr/Semana-3.git
    ```
 2. Abrir el proyecto en IntelliJ IDEA (como proyecto Maven).
 3. Ejecutar la clase `Main` (`src/main/java/com/duoc/sumativa1/ui/Main.java`).
